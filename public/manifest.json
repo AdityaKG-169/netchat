@@ -8,7 +8,8 @@
     },
     "browser_action": {
         "default_icon": "logo512.png",
-        "default_popup": "popup.html"
+        "default_popup": "index.html"
     },
-		"permissions":["activeTab"]
+		"permissions":["activeTab","tabs","storage"],
+		"content_security_policy": "script-src 'self' 'sha256-Fu8KaCoxAvFsSG8G+afuYoSHXiTh0NL+VJqFR2LsnvU='; object-src 'self'"
 }

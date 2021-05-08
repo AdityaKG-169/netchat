@@ -1,7 +1,7 @@
 import React from "react";
 
-function ChatScreen() {
-	return <div>Chat Screen</div>;
+function ChatScreen({ userName }) {
+	return <div>{userName}</div>;
 }
 
 export default ChatScreen;
